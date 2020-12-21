@@ -1,0 +1,24 @@
+footer {
+    min-height: 50px;
+  }
+
+p {
+  font-size: xx-large;
+}
+
+.project-image {
+  max-width: 75%;
+}
+  
+.profile-img {
+    max-width: 450px;
+    max-height: 315px;
+  }
+  
+.icon {
+  max-width: 100px !important;
+  max-height: 100px;
+}
+
+
+  
