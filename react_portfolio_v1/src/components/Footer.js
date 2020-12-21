@@ -2,10 +2,12 @@ import React from "react";
 
 function Footer() {
     return (
-        <div className="container mx-auto mt-5">
-            <nav class="navbar navbar-brand navbar-expand-lg navbar-dark bg-info text-white">
+        <div className="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div className="navbar-brand">
                 Copyright 2020 - Created by Ryan Ginsberg
-                </nav>
+                </div> 
+            </nav>
         </div>
 
     )

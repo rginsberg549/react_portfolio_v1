@@ -1,24 +1,24 @@
 footer {
     min-height: 50px;
   }
+
+p {
+  font-size: xx-large;
+}
+
+.project-image {
+  max-width: 75%;
+}
   
-  .card {
-    max-width: 50%;
-  }
-  
-  .profile-img {
+.profile-img {
     max-width: 450px;
     max-height: 315px;
   }
   
-  .icon {
-    max-width: 100px !important;
-    max-height: 100px;
-  
-  }
-  
-  .quicktrends-icon {
-    max-width: 35% !important;
-    min-height: 250px;
-  }
+.icon {
+  max-width: 100px !important;
+  max-height: 100px;
+}
+
+
   
