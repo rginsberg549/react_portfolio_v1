@@ -3,17 +3,16 @@ footer {
   }
 
 p {
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 .project-image {
   max-width: 75%;
 }
-  
+
 .profile-img {
-    max-width: 450px;
-    max-height: 315px;
-  }
+  max-width: 50% !important;
+}
   
 .icon {
   max-width: 100px !important;
