@@ -19,7 +19,7 @@ function AboutMe() {
         </div>
 
         <div class="row m-3">
-            <a class="col mx-auto" href="https://www.linkedin.com/in/ryanmginsberg/"><img class="icon" src="./img/linked-icon.png" /></a>
+            <a class="col mx-auto" href="https://www.linkedin.com/in/ryanmginsberg/"><img alt="" class="icon" src="../public/img/linked-icon.png" /></a>
             <a class="col mx-auto" href="https://github.com/rginsberg549"><img class="icon" src="./img/github-icon.png" /></a>
             <a class="col mx-auto" href="mailto:rginsberg@gmail.com"><img class="icon" src="./img/email-icon.png" /></a>
             <a class="col" href="tel:818-645-5832"><img class="icon" src="./img/phone-icon.png" /></a>
