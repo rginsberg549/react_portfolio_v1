@@ -3,20 +3,22 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter, Router, Route, Switch } from "react-router-dom";
+import { render } from "@testing-library/react";
 
 function App() {
+  render()
   return (
-    <Router>
+    <HashRouter basename="/">
       <Navbar />
       <Switch>
-        <Route exact path="/react_portfolio_v2" component={AboutMe} />
+        <Route exact path="/" component={AboutMe} />
       </Switch>
       <Switch>
-        <Route exact path="/react_portfolio_v2/projects" component={Projects}></Route>
+        <Route path="/projects" component={Projects}></Route>
       </Switch>
       <Footer />
-    </Router>
+    </HashRouter>
   );
 }
 
